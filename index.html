@@ -26,6 +26,22 @@
 
 <meta name="generator" content="Hexo 5.4.0"></head>
   <body>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym");
+
+   ym(69877240, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        trackHash:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/69877240" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
     <div class="container">
       <header class="header">
   <div class="blog-title">
@@ -48,7 +64,24 @@
       <div class="timer">
       <b id="d"></b> Days <b id="h"></b> Hours <b id="m"></b> Minutes <b id="s"></b> Seconds
       </div>
-</div>
+      <div class="song">
+          <!--页面底部歌词-->
+          <!-- require APlayer -->
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+          <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+          <!-- require MetingJS -->
+          <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+          <meting-js 
+          server="netease" 
+          type="playlist" 
+          id="23011986" 
+          fixed="true"
+
+          autoplay="true" 
+          order="list" 
+          loop="all"></meting-js>
+      </div>
+  </div>
 
 <!--计时器js-->
       <script>
@@ -76,7 +109,7 @@
       </main>
 
       
-        <script type="text/javascript" color="177, 122, 125" opacity="2" 
+        <script type="text/javascript" color="77, 180, 185" opacity="2" 
             zIndex="-1" count="200" 
             src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
         </script>
